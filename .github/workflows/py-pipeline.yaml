@@ -70,8 +70,6 @@ jobs:
     #     severity: CRITICAL
     #     exit-code: "1"
     #     ignore-unfixed: true
-    - name: Verify AWS Identity
-      run: aws sts get-caller-identity
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:

@@ -17,7 +17,7 @@ log = logging.getLogger(__name__)
 
 # Carrega .env para desenvolvimento local
 load_dotenv()
-##
+###
 
 # --- Configuração ---
 AWS_REGION = os.getenv("AWS_REGION")
